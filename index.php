@@ -19,10 +19,7 @@ $contacts= [
 ];
 while($index_val < 4){
     if($contacts['age'][$index_val] >=18){
-        echo $contacts['nom'][$index_val]." "
-            .$contacts['prenom'][$index_val]." "
-            .$contacts['age'][$index_val]." "
-            ."\n";
+        echo $contacts['prenom'][$index_val]."\n";
     }
     $index_val++;
 }
